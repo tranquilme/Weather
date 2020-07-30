@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:5:5-80
+11-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:8:5-34:19
+15        android:name="com.example.testapp.WeatherApplication"
+15-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:9:9-43
+16        android:allowBackup="true"
+16-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\da447f7aa18eb4f4875b9897a3733018\core-1.3.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.example.testapp.ui.weather.WeatherActivity" />
+25-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:16:9-73
+25-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:16:19-61
+26        <activity android:name="com.example.testapp.MainActivity" >
+26-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:19:17-69
+28-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:21:17-77
+30-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:25:9-33:20
+35            android:name="androidx.core.content.FileProvider"
+35-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:26:13-62
+36            android:authorities="com.example.testapp.provider"
+36-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:27:13-63
+37            android:exported="false"
+37-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:28:13-37
+38            android:grantUriPermissions="true" >
+38-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:29:13-47
+39            <meta-data
+39-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:30:13-32:54
+40                android:name="android.support.FILE_PROVIDER_PATHS"
+40-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:31:17-67
+41                android:resource="@xml/file_paths" />
+41-->E:\A\Weatherfir\app\src\main\AndroidManifest.xml:32:17-51
+42        </provider>
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+45            android:authorities="com.example.testapp.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+48    </application>
+49
+50</manifest>

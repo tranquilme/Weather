@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="button">Button</string>
+    <string name="textview">textView</string>
+    <string name="searchPlaces">搜索城市</string>
+    <string name="background">无搜索背景图</string>
+    <string name="realtime_temperature">%1$d ℃</string>
+    <string name="realtime_quality">空气指数 %1$d</string>
+    <string name="forecast">预报</string>
+</resources>

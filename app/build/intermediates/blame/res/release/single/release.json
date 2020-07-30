@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_forecast_weather.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\forecast_weather.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_realtime_weather.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\realtime_weather.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_dressing.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_dressing.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_partly_cloud_night.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_partly_cloud_night.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_cloudy.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cloudy.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_partly_cloud_day.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_partly_cloud_day.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_heavy_snow.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_heavy_snow.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_moderate_haze.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_moderate_haze.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_place.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\fragment_place.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_rain.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_rain.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_weather.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_moderate_snow.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_moderate_snow.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_fog.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_fog.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_search_bg.9.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\search_bg.9.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_clear_day.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_clear_day.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_cloudy.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_cloudy.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_heavy_rain.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_heavy_rain.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\xml_file_paths.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_place_item.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\place_item.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_moderate_rain.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_moderate_rain.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_ultraviolet.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_ultraviolet.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_thunder_shower.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_thunder_shower.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_storm_rain.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_clear_day.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clear_day.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_heavy_haze.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_heavy_haze.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_carwashing.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_carwashing.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_fog.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_fog.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_partly_cloudy_night.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_partly_cloudy_night.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_partly_cloudy_day.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_partly_cloudy_day.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_clear_night.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_clear_night.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_clear_night.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clear_night.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_wind.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_wind.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_light_snow.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_light_snow.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_forecast_item.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\forecast_item.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_snow.jpg.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_snow.jpg"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_light_haze.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_light_haze.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_sleet.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sleet.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_light_rain.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_light_rain.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_bg_place.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\bg_place.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_coldrisk.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_coldrisk.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\A\\Weatherfir\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_hail.png.flat",
+        "source": "E:\\A\\Weatherfir\\app\\src\\main\\res\\drawable-xxhdpi\\ic_hail.png"
+    }
+]

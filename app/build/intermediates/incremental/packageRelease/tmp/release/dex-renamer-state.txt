@@ -1,0 +1,4 @@
+#Tue Jul 28 12:49:31 CST 2020
+base.0=E\:\\A\\Weatherfir\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
