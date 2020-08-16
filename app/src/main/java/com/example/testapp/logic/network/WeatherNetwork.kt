@@ -23,6 +23,8 @@ object WeatherNetwork {
 
     suspend fun getDailyWeather(lng: String, lat: String) = weatherService.getDailyWeather(lng, lat)
 
+    suspend fun getHourlyWeather(lng: String, lat: String) = weatherService.getHourlyWeather(lng, lat)
+
 //    private suspend fun <T> retrofit2.Call<T>.await(): T {
 //            return suspendCoroutine {       //用suspendCoroutine函数就可以在回调时返回数据
 //                continuation ->

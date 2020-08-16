@@ -37,10 +37,14 @@ object Repository {
                 val deferredDaily = async {
                     WeatherNetwork.getDailyWeather(lng, lat)
                 }
+                val defferedHourly = async {
+                    WeatherNetwork.getHourlyWeather(lng, lat)
+                }
                 val realtime = deferredRealtime.await()
                 val daily = deferredDaily.await()
-                if (realtime.status == "ok" && daily.status == "ok") {
-                    val weather = Weather(realtime, daily)
+                val hourly = defferedHourly.await()
+                if (realtime.status == "ok" && daily.status == "ok" && hourly.status == "ok") {
+                    val weather = Weather(realtime, daily, hourly)
                     Result.success(weather)
                 }else{
                     Result.failure(
@@ -48,7 +52,6 @@ object Repository {
                         ))
                 }
             }
-
     }
 
     private fun <T> fire(context: CoroutineContext, block:suspend() -> Result<T>)= liveData(context){

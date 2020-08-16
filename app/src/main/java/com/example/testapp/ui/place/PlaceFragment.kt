@@ -33,6 +33,7 @@ class PlaceFragment: Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+            // 如果不判断 activity is MainActivity ，由于WeatherActivity中也有 fragment，会导致一直跳转。
         if (activity is MainActivity && viewModel.isPlaceSaved()) {     //选择过城市了
             val place = viewModel.getPlace()
             val intent = Intent(context, WeatherActivity::class.java).apply {

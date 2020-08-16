@@ -760,6 +760,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -924,6 +925,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1397,6 +1399,8 @@ drawable ic_partly_cloud_day
 drawable ic_partly_cloud_night
 drawable ic_sleet
 drawable ic_storm_rain
+drawable ic_sunrise
+drawable ic_sunset
 drawable ic_thunder_shower
 drawable ic_ultraviolet
 drawable mtrl_dialog_background
@@ -1533,6 +1537,7 @@ id design_navigation_view
 id dialog_button
 id dimensions
 id direct
+id direction
 id disableHome
 id drawlayout
 id dropdown_menu
@@ -1570,10 +1575,13 @@ id hideable
 id home
 id homeAsUp
 id home_fragment
+id hourly_weather
 id icon
 id icon_group
 id ifRoom
 id image
+id imageView3
+id imageView4
 id info
 id invisible
 id italic
@@ -1678,6 +1686,8 @@ id showCustom
 id showHome
 id showTitle
 id skipCollapsed
+id skycon
+id skycon_img
 id slide
 id smallLabel
 id snackbar_action
@@ -1685,6 +1695,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id speed
 id split_action_bar
 id spread
 id spread_inside
@@ -1696,6 +1707,8 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id sunrise_time
+id sunset_time
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1705,6 +1718,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id temperature
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1713,6 +1727,9 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1825,6 +1842,8 @@ layout design_text_input_start_icon
 layout forecast_item
 layout forecast_weather
 layout fragment_place
+layout hourly_item
+layout hourly_weather
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1924,6 +1943,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string forecast
 string hide_bottom_view_on_scroll_behavior
+string hour
 string icon_content_description
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description

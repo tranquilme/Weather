@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\A\\Weatherfir\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "outputFile": "E:\\A\\Weatherfirst\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
             "map": [
                 {
                     "source": "C:\\Users\\clll\\.gradle\\caches\\transforms-2\\files-2.1\\e01951a302939b0e3208a526dd0c478b\\appcompat-1.1.0\\res\\values-ml\\values-ml.xml",

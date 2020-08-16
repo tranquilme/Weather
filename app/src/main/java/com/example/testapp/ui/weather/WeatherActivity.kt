@@ -14,28 +14,31 @@ import android.view.View.VISIBLE
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.testapp.R
 import com.example.testapp.logic.Repository
-import com.example.testapp.logic.model.Sky
-import com.example.testapp.logic.model.Weather
-import com.example.testapp.logic.model.getSky
+import com.example.testapp.logic.model.*
 import kotlinx.android.synthetic.main.activity_weather.*
 import kotlinx.android.synthetic.main.forecast_item.*
 import kotlinx.android.synthetic.main.forecast_weather.*
+import kotlinx.android.synthetic.main.hourly_weather.*
 import kotlinx.android.synthetic.main.realtime_weather.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import java.lang.Exception
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
+import kotlin.math.max
 
 class WeatherActivity : AppCompatActivity() {
+    private val tag = "WeatherActivity.class"
     val viewModel by lazy { ViewModelProvider(this).get(WeatherViewModel::class.java) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,12 +65,13 @@ class WeatherActivity : AppCompatActivity() {
                 forecast_layout.removeAllViews()
                 showRealtime(data)
                 showForecast(data)
+                showHourly(data)
             }
             weather_swipeRefresh.isRefreshing = false
             scrollview_data.visibility = VISIBLE
         })
         refreshWeather()
-        weather_swipeRefresh.setColorSchemeResources(R.color.colorAccent, R.color.colorPrimary)
+        weather_swipeRefresh.setColorSchemeResources(R.color.blue)
         weather_swipeRefresh.setOnRefreshListener {
             refreshWeather()
         }
@@ -123,6 +127,35 @@ class WeatherActivity : AppCompatActivity() {
             val temText = "${temperature[i].min.toInt()} ~ ${temperature[i].max.toInt()} ℃"
             forecast_tem.text = temText
             forecast_layout.addView(view)
+        }
+    }
+
+    fun showHourly(data: Weather) {
+        try {
+            val sunrise = data.dailyResponse.result.daily.astro[0].sunrise.time
+            val sunset = data.dailyResponse.result.daily.astro[0].sunset.time
+            sunrise_time.text = sunrise
+            sunset_time.text = sunset
+            val linechartData = ArrayList<LinechartData>()
+            val hourlyData = data.hourlyWeather.result.hourly
+            for (i in hourlyData.skycon.indices) {
+                val time = hourlyData.skycon[i].datetime
+                val simpleDateFormat = SimpleDateFormat("HH:mm", Locale("CHINA"))
+                val format_time = simpleDateFormat.format(time)
+                val condition = hourlyData.skycon[i].value
+                val skyCondition = getSky(condition).info
+                val img = getSky(condition).icon
+                val direction = getDirection(hourlyData.wind[i].direction)
+                val speed = getSpeed(hourlyData.wind[i].speed)
+                val tem = hourlyData.temperature[i].value.toInt()
+                val maxTem = hourlyData.temperature.maxBy { it.value }!!.value.toInt()
+                val minTem = hourlyData.temperature.minBy { it.value }!!.value.toInt()
+                val data = LinechartData(format_time, skyCondition, img, maxTem, minTem, tem, direction, speed)
+                linechartData.add(data)
+            }
+            hourly_weather.setData(linechartData)
+        }catch (e: Exception) {
+            Log.d(tag, e.toString())
         }
     }
 

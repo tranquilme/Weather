@@ -58,6 +58,8 @@
 
                     <include layout="@layout/realtime_weather" />
 
+                    <include layout="@layout/hourly_weather" />
+
                     <include layout="@layout/forecast_weather" />
 
                 </LinearLayout>
