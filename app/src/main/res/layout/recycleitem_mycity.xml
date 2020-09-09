@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="6dp"
+    app:cardCornerRadius="15dp"
+    android:foreground="?attr/selectableItemBackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/recyclerBlue"
+            android:id="@+id/content"
+            >
+
+            <TextView
+                android:id="@+id/cityName"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+
+            <TextView
+                android:id="@+id/cityLng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="lat: 51.648°S"
+                android:textColor="@color/recyclerGray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/cityName"
+                app:layout_constraintTop_toBottomOf="@+id/cityName" />
+
+            <TextView
+                android:id="@+id/cityLat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="lng: 51.648°E"
+                android:textColor="@color/recyclerGray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/cityLng"
+                app:layout_constraintTop_toTopOf="@+id/cityLng" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_right" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/delete"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/deleteRed"
+            >
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_delete"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
