@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
     <color name="blue">#12ABF6</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/blue</color>
+    
+    <color name="place_top_framelayout_bg">@color/blue</color>
+    <color name="place_recyclerview_item_click">#67B9E2</color>
+    <color name="place_recyclerview_item_text_color">@color/black</color>
+    <color name="my_city_title_text_color">@color/white</color>
+    <color name="recyclerBlue">#619CE0</color>
+    <color name="recyclerGray">#E8E8E8</color>
+    <color name="deleteRed">#FF0000</color>
+
 </resources>

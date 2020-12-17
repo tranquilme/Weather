@@ -760,6 +760,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -777,6 +778,7 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color deleteRed
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -899,8 +901,12 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color my_city_title_text_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color place_recyclerview_item_click
+color place_recyclerview_item_text_color
+color place_top_framelayout_bg
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -909,6 +915,8 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color recyclerBlue
+color recyclerGray
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1364,6 +1372,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
+drawable ic_add_finish
+drawable ic_back
 drawable ic_calendar_black_24dp
 drawable ic_carwashing
 drawable ic_clear_black_24dp
@@ -1371,6 +1382,7 @@ drawable ic_clear_day
 drawable ic_clear_night
 drawable ic_cloudy
 drawable ic_coldrisk
+drawable ic_delete
 drawable ic_dressing
 drawable ic_edit_black_24dp
 drawable ic_fog
@@ -1397,6 +1409,8 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_partly_cloud_day
 drawable ic_partly_cloud_night
+drawable ic_right
+drawable ic_search
 drawable ic_sleet
 drawable ic_storm_rain
 drawable ic_sunrise
@@ -1425,10 +1439,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable place_item_click
 drawable search_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable weather_button_click
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1513,6 +1529,9 @@ id checked
 id chip
 id chip_group
 id chronometer
+id cityLat
+id cityLng
+id cityName
 id city_name
 id clear_text
 id clip_horizontal
@@ -1529,6 +1548,7 @@ id cut
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
+id delete
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1580,12 +1600,15 @@ id icon
 id icon_group
 id ifRoom
 id image
+id image11
+id imageView
 id imageView3
 id imageView4
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv_place_add
 id labeled
 id largeLabel
 id left
@@ -1642,11 +1665,13 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id parent_view
 id password_toggle
 id peekHeight
 id percent
 id pin
 id placeFragment
+id place_content
 id place_fragment_recyclerview
 id progress_circular
 id progress_horizontal
@@ -1654,6 +1679,7 @@ id radio
 id realtime_con
 id realtime_quality
 id realtime_tem
+id recyclerView
 id right
 id right_icon
 id right_side
@@ -1718,6 +1744,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tempIcon
 id temperature
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -1727,6 +1754,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView2
 id textView3
 id textView4
 id textView5
@@ -1739,6 +1767,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topLayout
 id topPanel
@@ -1822,6 +1851,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_mycity
 layout activity_weather
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1844,6 +1874,9 @@ layout forecast_weather
 layout fragment_place
 layout hourly_item
 layout hourly_weather
+layout include_weather_forecast
+layout include_weather_hourly
+layout include_weather_realtime
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1880,6 +1913,10 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout place_item
 layout realtime_weather
+layout recycleitem_forecast
+layout recycleitem_houly
+layout recycleitem_mycity
+layout recycleitem_place
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1936,6 +1973,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string city_manage_title
 string clear_text_end_icon_content_description
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -1984,12 +2022,16 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string place_searchPlaces_ed_input
 string realtime_quality
 string realtime_temperature
-string searchPlaces
 string search_menu_title
+string search_place
 string status_bar_notification_info_overflow
-string textview
+string weather_feature_title
+string weather_future_twelve_hour_title
+string weather_realtime_quality
+string weather_realtime_temperature
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

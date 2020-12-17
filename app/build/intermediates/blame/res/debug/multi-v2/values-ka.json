@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\A\\Weatherfirst\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
+            "outputFile": "E:\\A\\github\\Weather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\clll\\.gradle\\caches\\transforms-2\\files-2.1\\e01951a302939b0e3208a526dd0c478b\\appcompat-1.1.0\\res\\values-ka\\values-ka.xml",

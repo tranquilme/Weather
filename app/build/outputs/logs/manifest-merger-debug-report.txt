@@ -1,19 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9a1f68411919e4948d3067d75beb23f\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e01951a302939b0e3208a526dd0c478b\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b3d3dcca56e5743985a85daaa89ccd26\jetified-core-ktx-1.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e1de8bcd4443eda3089b74b59199124c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\51099ea10cd63ac5fb91b1d884a50563\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9453c1d385d2a2bf9d783adab3ef905d\jetified-room-ktx-2.2.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\773b8f5f1d967ea12b2a650b0d8889fd\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\d443958fcbd9e56fbba504cc63019911\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\79663083c9305c1c73b690831389384e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\14f4646ee89ab5996424dc526a43959c\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\664ec646f5b650cf7cff8a91e089bb33\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\df48e24dd7f101a7477289355df4a16b\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\1e2770442ef902ef7947e7d764feff05\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9ebcf97ee46373decf6b9379867dc6e\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -39,40 +41,44 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\clll\.gr
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\dbdd5d745cdb29080381d2ed35b9e2b2\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2f0812b4134b97fb1d350cd57f3d9934\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\3127daef7d91146ae966178fdcb68c4d\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\cfb0a6343da001dea7321ebec1b230b0\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\0ce42b35cbcfdb80f42854c179f6acc6\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\611c32aa3beed120bce4179582fd0d20\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.INTERNET
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:8:5-34:19
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:8:5-34:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9a1f68411919e4948d3067d75beb23f\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9a1f68411919e4948d3067d75beb23f\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e1de8bcd4443eda3089b74b59199124c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e1de8bcd4443eda3089b74b59199124c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\14f4646ee89ab5996424dc526a43959c\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\14f4646ee89ab5996424dc526a43959c\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\da447f7aa18eb4f4875b9897a3733018\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\da447f7aa18eb4f4875b9897a3733018\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
@@ -82,57 +88,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cl
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\da447f7aa18eb4f4875b9897a3733018\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:9:9-43
 activity#com.example.testapp.ui.weather.WeatherActivity
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:16:9-73
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:16:9-73
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:16:19-61
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:16:19-61
 activity#com.example.testapp.MainActivity
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:21:27-74
 provider#androidx.core.content.FileProvider
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:grantUriPermissions
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:29:13-47
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:29:13-47
 	android:authorities
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:27:13-63
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:27:13-63
 	android:exported
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:26:13-62
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:26:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:30:13-32:54
+ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:30:13-32:54
 	android:resource
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:32:17-51
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:32:17-51
 	android:name
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml:31:17-67
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml:31:17-67
 uses-sdk
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9a1f68411919e4948d3067d75beb23f\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\b9a1f68411919e4948d3067d75beb23f\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e01951a302939b0e3208a526dd0c478b\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -143,6 +149,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\clll\.gr
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\e1de8bcd4443eda3089b74b59199124c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\51099ea10cd63ac5fb91b1d884a50563\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\51099ea10cd63ac5fb91b1d884a50563\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9453c1d385d2a2bf9d783adab3ef905d\jetified-room-ktx-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9453c1d385d2a2bf9d783adab3ef905d\jetified-room-ktx-2.2.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\773b8f5f1d967ea12b2a650b0d8889fd\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\773b8f5f1d967ea12b2a650b0d8889fd\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\d443958fcbd9e56fbba504cc63019911\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -153,6 +161,8 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\clll\.gradl
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\14f4646ee89ab5996424dc526a43959c\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\664ec646f5b650cf7cff8a91e089bb33\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\664ec646f5b650cf7cff8a91e089bb33\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\df48e24dd7f101a7477289355df4a16b\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\df48e24dd7f101a7477289355df4a16b\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\1e2770442ef902ef7947e7d764feff05\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -203,18 +213,30 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\clll\.gradle\caches\
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2f0812b4134b97fb1d350cd57f3d9934\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\3127daef7d91146ae966178fdcb68c4d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\3127daef7d91146ae966178fdcb68c4d\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\cfb0a6343da001dea7321ebec1b230b0\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\cfb0a6343da001dea7321ebec1b230b0\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\0ce42b35cbcfdb80f42854c179f6acc6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\0ce42b35cbcfdb80f42854c179f6acc6\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\611c32aa3beed120bce4179582fd0d20\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\611c32aa3beed120bce4179582fd0d20\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		ADDED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
-		INJECTED from E:\A\Weatherfirst\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		ADDED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from E:\A\github\Weather\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\9fd816ec19683184280f6bfd53fa4383\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\clll\.gradle\caches\transforms-2\files-2.1\2c9d767f0d56e6691373d336d1b64f80\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities

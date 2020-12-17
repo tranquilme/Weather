@@ -1,11 +1,16 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="button">Button</string>
-    <string name="textview">textView</string>
-    <string name="searchPlaces">搜索城市</string>
+    <string name="place_searchPlaces_ed_input">搜索城市</string>
     <string name="background">无搜索背景图</string>
-    <string name="realtime_temperature">%1$d ℃</string>
-    <string name="realtime_quality">空气指数 %1$d</string>
+    <string name="weather_realtime_temperature">%1$d ℃</string>
+    <string name="weather_realtime_quality">空气指数 %1$d</string>
+    <string name="weather_feature_title">预报</string>
+    <string name="weather_future_twelve_hour_title">未来12小时天气</string>
+    <string name="city_manage_title">城市管理</string>
+    <string name="realtime_temperature">天气</string>
+    <string name="realtime_quality">质量</string>
     <string name="forecast">预报</string>
-    <string name="hour">未来12小时天气</string>
+    <string name="search_place">搜索城市</string>
+    <string name="hour">未来12小时预报</string>
 </resources>

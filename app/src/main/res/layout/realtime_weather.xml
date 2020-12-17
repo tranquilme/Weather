@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="350dp"
     >
@@ -23,23 +24,23 @@
         android:id="@+id/realtime_con"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/realtime_tem"
-        app:layout_constraintLeft_toLeftOf="@id/realtime_tem"
         android:layout_marginTop="20dp"
-        android:textSize="18sp"
+        android:layout_marginEnd="10dp"
         android:textColor="#fff"
-        />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/line"
+        app:layout_constraintTop_toBottomOf="@id/realtime_tem" />
+
     <TextView
         android:id="@+id/line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/realtime_con"
-        app:layout_constraintLeft_toRightOf="@id/realtime_con"
-        android:layout_marginStart="10dp"
-        android:textSize="18sp"
         android:text="|"
         android:textColor="#fff"
-        />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/realtime_tem"
+        app:layout_constraintStart_toStartOf="@+id/realtime_tem"
+        app:layout_constraintTop_toTopOf="@id/realtime_con" />
     <TextView
         android:id="@+id/realtime_quality"
         android:layout_width="wrap_content"
@@ -50,4 +51,15 @@
         android:textSize="18sp"
         android:textColor="#fff"
         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="℃"
+        android:textColor="@color/my_city_title_text_color"
+        app:layout_constraintStart_toEndOf="@+id/realtime_tem"
+        app:layout_constraintTop_toTopOf="@+id/realtime_tem" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

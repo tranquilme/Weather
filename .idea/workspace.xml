@@ -89,6 +89,9 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bqXHGsho3Zcy2CuBUzjeamkxym" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,8 +108,10 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="E:/AndroidSdk/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/lib/src/main/java/com/example" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Plants" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Weather" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1608195320866" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -286,81 +291,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595747391156">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="740" y="355" key="FileChooserDialogImpl" timestamp="1608199007627">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="510" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1595747391156" />
-    <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1594990204278">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="740" y="355" key="FileChooserDialogImpl/-1920.116.1536.864/0.0.1920.1200@0.0.1920.1200" timestamp="1608199007627" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1608197414627">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="516" y="301" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1594990204278" />
-    <state x="553" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1593692972008">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="553" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1593692972008" />
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592033835912">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1592033835912" />
-    <state x="548" y="78" width="466" height="708" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1592034030362">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="548" y="78" width="466" height="708" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1592034030362" />
-    <state x="622" y="242" key="AndroidCreateXmlResourceDialog" timestamp="1595489200399">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="622" y="242" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1595489200399" />
-    <state x="349" y="137" key="AndroidThemeDialog" timestamp="1592053517043">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="349" y="137" key="AndroidThemeDialog/0.0.1536.864@0.0.1536.864" timestamp="1592053517043" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1595910722036">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1595910722036" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1595941812050">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595941812050" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1595941812049">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1595941812049" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1595941812049">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1595941812049" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1595941812050">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1595941812050" />
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1595941812051">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595941812051" />
-    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1595941812050">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1595941812050" />
-    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1595941812050">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1595941812050" />
-    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1595941812050">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1595941812050" />
-    <state x="270" y="74" key="SettingsEditor" timestamp="1595491788288">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1595491788288" />
-    <state x="444" y="278" width="715" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1594988849076">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="444" y="278" width="715" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.864@0.0.1536.864" timestamp="1594988849076" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595149300638">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1595149300638" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/-1920.116.1536.864/0.0.1920.1200@0.0.1920.1200" timestamp="1608197414627" />
   </component>
 </project>

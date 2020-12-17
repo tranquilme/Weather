@@ -2,40 +2,30 @@ package com.example.testapp.ui.weather
 
 import android.content.Context
 import android.graphics.Color
-import android.inputmethodservice.InputMethodService
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.VISIBLE
 import android.view.inputmethod.InputMethodManager
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.testapp.R
-import com.example.testapp.logic.Repository
 import com.example.testapp.logic.model.*
 import kotlinx.android.synthetic.main.activity_weather.*
-import kotlinx.android.synthetic.main.forecast_item.*
 import kotlinx.android.synthetic.main.forecast_weather.*
 import kotlinx.android.synthetic.main.hourly_weather.*
 import kotlinx.android.synthetic.main.realtime_weather.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import java.lang.Exception
-import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.math.max
 
 class WeatherActivity : AppCompatActivity() {
     private val tag = "WeatherActivity.class"
@@ -99,12 +89,12 @@ class WeatherActivity : AppCompatActivity() {
     }
 
     fun showRealtime(data: Weather) {
-        realtime_tem.text = String.format(getString(R.string.realtime_temperature), data.realtimeResponse.result.realtime.temperature.toInt())
+        realtime_tem.text = data.realtimeResponse.result.realtime.temperature.toInt().toString()
         val con = data.realtimeResponse.result.realtime.skycon
         val sky_con = getSky(con)
         realtime_con.text = sky_con.info
         weather_layout.background = getDrawable(sky_con.bg)
-        realtime_quality.text = String.format(getString(R.string.realtime_quality), data.realtimeResponse.result.realtime.air_quality.aqi.chn.toInt())
+        realtime_quality.text = "空气质量 "+data.realtimeResponse.result.realtime.air_quality.aqi.chn.toInt().toString()
     }
 
     fun showForecast(data: Weather) {
