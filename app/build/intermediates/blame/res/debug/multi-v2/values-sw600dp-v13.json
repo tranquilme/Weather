@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\A\\github\\Weather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/Users/cl/Study/Weather/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clll\\.gradle\\caches\\transforms-2\\files-2.1\\e01951a302939b0e3208a526dd0c478b\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/cl/.gradle/caches/transforms-2/files-2.1/e01951a302939b0e3208a526dd0c478b/appcompat-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\clll\\.gradle\\caches\\transforms-2\\files-2.1\\b9a1f68411919e4948d3067d75beb23f\\material-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/cl/.gradle/caches/transforms-2/files-2.1/b9a1f68411919e4948d3067d75beb23f/material-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

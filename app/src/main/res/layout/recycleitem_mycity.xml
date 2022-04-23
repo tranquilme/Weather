@@ -81,7 +81,7 @@
             android:layout_width="110dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:background="@color/deleteRed"
+            android:background="@color/red"
             >
             <ImageView
                 android:id="@+id/image11"

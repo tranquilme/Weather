@@ -6,7 +6,7 @@ import java.lang.System;
 public abstract interface WeatherService {
     
     @org.jetbrains.annotations.Nullable()
-    @retrofit2.http.GET(value = "/v2.5/EQmJeOcLwG2CKv8l/{lng},{lat}/realtime.json?dailysteps=7")
+    @retrofit2.http.GET(value = "/v2.5/EQmJeOcLwG2CKv8l/{lng},{lat}/realtime?alert=true")
     public abstract java.lang.Object getRealtimeWeather(@org.jetbrains.annotations.NotNull()
     @retrofit2.http.Path(value = "lng")
     java.lang.String lng, @org.jetbrains.annotations.NotNull()

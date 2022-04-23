@@ -1,7 +1,7 @@
-#Thu Dec 17 17:46:13 CST 2020
-base.0=E\:\\A\\github\\Weather\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sat Apr 23 17:14:52 CST 2022
+base.0=/Users/cl/Study/Weather/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=E\:\\A\\github\\Weather\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=/Users/cl/Study/Weather/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

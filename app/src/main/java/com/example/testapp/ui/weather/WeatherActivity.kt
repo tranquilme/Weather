@@ -19,6 +19,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.testapp.R
 import com.example.testapp.logic.model.*
 import kotlinx.android.synthetic.main.activity_weather.*
+import kotlinx.android.synthetic.main.alert_item.view.*
+import kotlinx.android.synthetic.main.alert_weather.*
 import kotlinx.android.synthetic.main.forecast_weather.*
 import kotlinx.android.synthetic.main.hourly_weather.*
 import kotlinx.android.synthetic.main.realtime_weather.*
@@ -56,6 +58,7 @@ class WeatherActivity : AppCompatActivity() {
                 showRealtime(data)
                 showForecast(data)
                 showHourly(data)
+                showAlert(data)
             }
             weather_swipeRefresh.isRefreshing = false
             scrollview_data.visibility = VISIBLE
@@ -86,6 +89,22 @@ class WeatherActivity : AppCompatActivity() {
                 manager.hideSoftInputFromWindow(drawerView.windowToken, InputMethodManager.HIDE_NOT_ALWAYS) //关闭输入法
             }
         })
+    }
+
+    fun showAlert(data: Weather) {
+        val content = data.realtimeResponse.result.alert.content
+        alert_content_cv.visibility = if (content.isEmpty()) View.GONE else View.VISIBLE
+
+        if (content.isNotEmpty()) {
+            fl_alert.removeAllViews()
+
+            for (item in data.realtimeResponse.result.alert.content) {
+                val alertView = LayoutInflater.from(this).inflate(R.layout.alert_item, fl_alert, false)
+                alertView.alert_title.text = item.title
+                alertView.alert_info.text = item.description
+                fl_alert.addView(alertView)
+            }
+        }
     }
 
     fun showRealtime(data: Weather) {

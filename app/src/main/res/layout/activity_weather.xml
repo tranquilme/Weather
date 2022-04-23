@@ -62,6 +62,8 @@
 
                     <include layout="@layout/forecast_weather" />
 
+                    <include layout="@layout/alert_weather" />
+
                 </LinearLayout>
             </ScrollView>
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

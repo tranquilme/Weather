@@ -13,4 +13,5 @@
     <string name="forecast">预报</string>
     <string name="search_place">搜索城市</string>
     <string name="hour">未来12小时预报</string>
+    <string name="alert_title">天气预警</string>
 </resources>

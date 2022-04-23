@@ -778,7 +778,6 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
-color deleteRed
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -917,6 +916,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color recyclerBlue
 color recyclerGray
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1510,6 +1510,9 @@ id activity_chooser_view_content
 id add
 id address
 id alertTitle
+id alert_content_cv
+id alert_info
+id alert_title
 id all
 id always
 id async
@@ -1576,6 +1579,7 @@ id filled
 id filter_chip
 id fitToContents
 id fixed
+id fl_alert
 id forecast
 id forecast_date
 id forecast_description
@@ -1754,6 +1758,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView2
 id textView3
 id textView4
@@ -1853,6 +1858,8 @@ layout abc_tooltip
 layout activity_main
 layout activity_mycity
 layout activity_weather
+layout alert_item
+layout alert_weather
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1964,6 +1971,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alert_title
 string app_name
 string appbar_scrolling_view_behavior
 string background
